@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "pretty": true,
+        "sourceMap": true,
+        "lib": [ "es2017" ],
+        "outDir": "./dist"
+    },
+    "include": [
+        "./typings/**/*.ts",
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "any_fileglob_to_exclude.ts"
+    ]
+}

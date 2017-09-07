@@ -1,0 +1,16 @@
+{
+    "test": {
+        "cmd": [
+            [
+                "ls -la",
+            ],[
+                "date",
+                "uname -a"
+            ]
+        ],
+        "timeout": 30000,
+        "user": "",
+        "singleton": true,
+        "skipError": true
+    }
+}
